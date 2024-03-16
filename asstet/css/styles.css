@@ -58,16 +58,26 @@ a{
 }
 
 /* =============header========== */
-.header{
+.fixed-header{
+    background: #E6F0FF;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+    padding-top: 26px;
+}
+
+.hero-wrap{
+    display: flex;
+    flex-flow: column;
     position: relative;
-    height: 100vh;
+    height: calc(100vh - 90px);
     background: #E6F0FF;
 }
 
 .navbar{
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    padding: 12px 0;
 }
 
 .navbar ul{
@@ -103,7 +113,7 @@ a{
 }
 
 .hero{
-    margin-top: 130px;
+    margin-top: 120px;
 }
 
 .hero .info{
