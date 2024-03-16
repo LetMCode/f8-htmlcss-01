@@ -618,8 +618,7 @@ a{
 }
 
 .footer .social-link:hover{
-    opacity: 0.7;
-
+    background-color: #ebebeb;
 }
 
 .footer .row-bottom{
