@@ -169,10 +169,24 @@ a{
 }
 
 .client-logos{
-    margin-top: 96px;
+    margin-top: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.client-logos a{
+    display: flex;
+    align-items: center;
+    height: 92px;
+    padding: 0 42px;
+}
+
+.client-logos a:hover{
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10);
+    
 }
 
 /* ==========Guides========= */
@@ -604,7 +618,7 @@ a{
 }
 
 .footer .social-link:hover{
-    opacity: 0.9;
+    opacity: 0.7;
 
 }
 
